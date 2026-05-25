@@ -78,12 +78,12 @@ Goal     : Build scalable cloud infrastructure & intelligent automation
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nasirbloch32&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&count_private=true&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=nasirbloch323&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch32&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
 </p>
 
 ---
@@ -94,10 +94,10 @@ Goal     : Build scalable cloud infrastructure & intelligent automation
   <a href="https://www.linkedin.com/in/nasir-mehmood-041908205" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:nasirbloch323@gmail.com">
+  <a href="mailto:nasirbloch3233@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://github.com/nasirbloch32" target="_blank">
+  <a href="https://github.com/nasirbloch323" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
@@ -105,7 +105,7 @@ Goal     : Build scalable cloud infrastructure & intelligent automation
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nasirbloch32&label=Profile+Views&color=2E86C1&style=flat" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=nasirbloch323&label=Profile+Views&color=2E86C1&style=flat" alt="profile views" />
 </p>
 
 <p align="center">
