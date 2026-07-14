@@ -21,7 +21,7 @@
 🎓 Software Engineering graduate from **University of Okara**  
 ⚙️ Actively transitioning into **DevOps Engineering & Cloud Infrastructure**  
 🏋️ Hands-on training at **MISE Academy** & **Exlearn Technologies**  
-🤖 Passionate about **CI/CD Automation**, **Kubernetes**, **Terraform**, and **AI Agent Workflows**  
+🤖 Passionate about **CI/CD Automation**, **Kubernetes**, **Terraform** & **AI Agent Workflows**  
 🌍 Based in **Okara / Lahore, Pakistan** — Open to **Remote & Relocation** opportunities  
 
 ---
@@ -36,11 +36,13 @@
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA44?style=for-the-badge&logo=opentofu&logoColor=black)
 
 ### 💻 Programming & AI
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI_Agents-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 ### 🗄️ Databases & Tools
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -49,46 +51,15 @@
 
 ---
 
-## 📦 DevOps Projects
+## 📂 My DevOps Projects (Auto-Updated Daily 🔄)
 
-### 🔁 [Multi-Branch Jenkins CI/CD Pipeline with Jenkins Agents](https://github.com/nasirbloch323)
-> Complete multi-branch CI/CD pipeline using **Jenkins, Jenkins Agents, Docker, Docker Hub & AWS EC2**  
-> Auto-detects Git branches (dev/stg/prod), builds Docker images, pushes to Docker Hub, and deploys using Docker Compose  
-`Jenkins` `Docker` `Docker Hub` `AWS EC2` `Docker Compose` `Git`
+> ⚡ This section updates automatically every day via GitHub Actions — always showing my latest work!
 
----
-
-### 🔐 [Secure Two-Tier Flask App Deployment on Kubernetes](https://github.com/nasirbloch323/Two-Tier-Archite)
-> Deployed a secure Flask + MySQL two-tier app on a **Kubernetes KIND cluster** running on **AWS EC2**  
-> Implemented production-inspired K8s environment with **Kubernetes Secrets** for secure credential management  
-`Kubernetes` `KIND` `Docker` `Flask` `MySQL` `AWS EC2` `Git` `GitHub`
-
----
-
-### 🏦 [AI-BankApp-DevOps](https://github.com/nasirbloch323)
-> High-performance containerized financial platform built with **Spring Boot 3, Java 21 & Contextual AI**  
-> Implemented a **DevSecOps pipeline** using GitHub Actions, OIDC authentication & AWS managed services  
-`Spring Boot 3` `Java 21` `GitHub Actions` `AWS` `OIDC` `Docker` `AI Integration`
-
----
-
-### 🎬 [Cinema Booking CI/CD Pipeline — Docker Compose Multi-Stage](https://github.com/nasirbloch323)
-> Multi-stage Docker pipeline on Ubuntu EC2 with **Jenkins-based build & automated deployment**  
-> Full CI/CD workflow from code push to container deployment on AWS EC2  
-`Jenkins` `Docker Compose` `Ubuntu` `AWS EC2` `Multi-stage Build`
-
----
-
-### 🏫 [College ERP — DevOps](https://github.com/nasirbloch323)
-> College Management System built with **Django**, containerized with **Docker**, deployed on **AWS EC2**  
-`Django` `Docker` `AWS EC2` `Linux`
-
----
-
-### 🎓 [University Management System — MERN + DevOps](https://github.com/nasirbloch323)
-> Full-stack university management app using **MERN stack** integrated with **DevOps practices**  
-> Streamlines class organization and communication between students, teachers & admins  
-`MongoDB` `Express.js` `React.js` `Node.js` `Docker` `DevOps`
+<!-- REPOS_START -->
+| Repository | Description | Tech |
+|---|---|---|
+| Loading... | Auto-update will populate this on first run | — |
+<!-- REPOS_END -->
 
 ---
 
@@ -132,7 +103,7 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nasirbloch323&label=Profile+Views&color=0e75b6&style=flat" alt="nasirbloch323"/>
+  <img src="https://komarev.com/ghpvc/?username=nasirbloch323&label=Profile+Views&color=0e75b6&style=flat"/>
 </p>
 
 <p align="center"><i>"Building scalable infrastructure, automating everything, one pipeline at a time." 🚀</i></p>
