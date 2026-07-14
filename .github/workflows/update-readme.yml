@@ -1,0 +1,86 @@
+name: Update README with Latest Repos
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:       # Manual trigger option
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Profile Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Fetch Latest Repos & Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: nasirbloch323
+        run: |
+          python << 'EOF'
+          import requests, os, re
+
+          username = os.environ["GITHUB_USERNAME"]
+          token = os.environ["GITHUB_TOKEN"]
+
+          headers = {"Authorization": f"token {token}"}
+          url = f"https://api.github.com/users/{username}/repos?sort=updated&per_page=20&type=public"
+          repos = requests.get(url, headers=headers).json()
+
+          # Filter out the profile repo itself
+          repos = [r for r in repos if not r.get("fork") and r["name"] != username]
+
+          # Build markdown table
+          lines = []
+          lines.append("| Repository | Description | Tech |")
+          lines.append("|---|---|---|")
+
+          for repo in repos:
+              name = repo["name"]
+              desc = repo.get("description") or "—"
+              url_link = repo["html_url"]
+              lang = repo.get("language") or "—"
+              stars = repo.get("stargazers_count", 0)
+              star_badge = f" ⭐{stars}" if stars > 0 else ""
+              lines.append(f"| [**{name}**]({url_link}){star_badge} | {desc} | `{lang}` |")
+
+          table = "\n".join(lines)
+
+          # Read current README
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          # Replace content between markers
+          new_content = re.sub(
+              r"<!-- REPOS_START -->.*?<!-- REPOS_END -->",
+              f"<!-- REPOS_START -->\n{table}\n<!-- REPOS_END -->",
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+
+          print(f"✅ Updated README with {len(repos)} repos")
+          EOF
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🔄 Auto-update: latest DevOps repos [$(date +'%Y-%m-%d')]"
+          git push
