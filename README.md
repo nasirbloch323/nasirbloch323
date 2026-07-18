@@ -58,6 +58,7 @@
 <!-- REPOS_START -->
 | Repository | Description | Tech |
 |---|---|---|
+| [**AI-Bank-DeVops**](https://github.com/nasirbloch323/AI-Bank-DeVops) | This is a Repository to get you started with Kubernetes.Ollama ,Docker,docker compose , | `HTML` |
 | [**ThreeTier-app-with-K8s**](https://github.com/nasirbloch323/ThreeTier-app-with-K8s) | — | `JavaScript` |
 | [**Two-Tier-Architecture-on-Kubernetes-with-ConfigMap-Secrets**](https://github.com/nasirbloch323/Two-Tier-Architecture-on-Kubernetes-with-ConfigMap-Secrets) | Secure Deployment of Two-Tier Architecture on Kubernetes with ConfigMap & Secrets | `HTML` |
 | [**Two-tier-application-K8S-KIND**](https://github.com/nasirbloch323/Two-tier-application-K8S-KIND) | This is a Repository to get you started with Kubernetes. | `HTML` |
