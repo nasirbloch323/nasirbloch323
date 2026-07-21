@@ -58,8 +58,9 @@
 <!-- REPOS_START -->
 | Repository | Description | Tech |
 |---|---|---|
-| [**AI-Bank-DeVops**](https://github.com/nasirbloch323/AI-Bank-DeVops) | This is a Repository to get you started with Kubernetes.Ollama ,Docker,docker compose , | `HTML` |
 | [**ThreeTier-app-with-K8s**](https://github.com/nasirbloch323/ThreeTier-app-with-K8s) | — | `JavaScript` |
+| [**LLM_MODEL-K8S**](https://github.com/nasirbloch323/LLM_MODEL-K8S) | — | `Shell` |
+| [**AI-Bank-DeVops**](https://github.com/nasirbloch323/AI-Bank-DeVops) | This is a Repository to get you started with Kubernetes.Ollama ,Docker,docker compose , | `HTML` |
 | [**Two-Tier-Architecture-on-Kubernetes-with-ConfigMap-Secrets**](https://github.com/nasirbloch323/Two-Tier-Architecture-on-Kubernetes-with-ConfigMap-Secrets) | Secure Deployment of Two-Tier Architecture on Kubernetes with ConfigMap & Secrets | `HTML` |
 | [**Two-tier-application-K8S-KIND**](https://github.com/nasirbloch323/Two-tier-application-K8S-KIND) | This is a Repository to get you started with Kubernetes. | `HTML` |
 | [**Deployed-a-Secure-Two-Tier-Architecture-on-Kubernetes-KIND-via-AWS-**](https://github.com/nasirbloch323/Deployed-a-Secure-Two-Tier-Architecture-on-Kubernetes-KIND-via-AWS-) | — | `HTML` |
@@ -68,7 +69,6 @@
 | [**Jenkins-installation-**](https://github.com/nasirbloch323/Jenkins-installation-) ⭐1 | — | `—` |
 | [**Django-Notes-App-CI-CD-Pipeline-with-Jenkins-Docker-creditional-both-**](https://github.com/nasirbloch323/Django-Notes-App-CI-CD-Pipeline-with-Jenkins-Docker-creditional-both-) | connected docker hub and github and tigger automatic | `—` |
 | [**Heart-RateMonitor-ECR**](https://github.com/nasirbloch323/Heart-RateMonitor-ECR) | — | `Python` |
-| [**Django-Notes-App-CI-CD-with-Jenkins-on-AWS-EC2-Ubuntu-**](https://github.com/nasirbloch323/Django-Notes-App-CI-CD-with-Jenkins-on-AWS-EC2-Ubuntu-) | BASIC UNDERSTAING  | `—` |
 <!-- REPOS_END -->
 
 ---
