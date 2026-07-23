@@ -58,6 +58,7 @@
 <!-- REPOS_START -->
 | Repository | Description | Tech |
 |---|---|---|
+| [**EduConnect-MERN-k8s**](https://github.com/nasirbloch323/EduConnect-MERN-k8s) | End-to-end AI Powered DevOps project — Spring Boot banking app with Docker, CI/CD, Kubernetes, | `JavaScript` |
 | [**ThreeTier-app-with-K8s**](https://github.com/nasirbloch323/ThreeTier-app-with-K8s) | — | `JavaScript` |
 | [**LLM_MODEL-K8S**](https://github.com/nasirbloch323/LLM_MODEL-K8S) | — | `Shell` |
 | [**AI-Bank-DeVops**](https://github.com/nasirbloch323/AI-Bank-DeVops) | This is a Repository to get you started with Kubernetes.Ollama ,Docker,docker compose , | `HTML` |
