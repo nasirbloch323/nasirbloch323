@@ -58,6 +58,7 @@
 <!-- REPOS_START -->
 | Repository | Description | Tech |
 |---|---|---|
+| [**Kubernetes-Role-Based-Access-Control-RBAC-with-Namespace-Cluster-Scope-on-a-Kind-Cluster-in-AWS-EC2**](https://github.com/nasirbloch323/Kubernetes-Role-Based-Access-Control-RBAC-with-Namespace-Cluster-Scope-on-a-Kind-Cluster-in-AWS-EC2) | — | `Shell` |
 | [**EduConnect-MERN-k8s**](https://github.com/nasirbloch323/EduConnect-MERN-k8s) | End-to-end AI Powered DevOps project — Spring Boot banking app with Docker, CI/CD, Kubernetes, | `JavaScript` |
 | [**ThreeTier-app-with-K8s**](https://github.com/nasirbloch323/ThreeTier-app-with-K8s) | — | `JavaScript` |
 | [**LLM_MODEL-K8S**](https://github.com/nasirbloch323/LLM_MODEL-K8S) | — | `Shell` |
