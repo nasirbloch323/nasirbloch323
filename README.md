@@ -1,16 +1,15 @@
 <div align="center">
 
-<!-- 3D ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=0,2,2,5,30&text=NASIR%20MEHMOOD&fontColor=fff&fontSize=70&desc=DevOps%20Engineer%20%7C%20Cloud%20%26%20Automation%20Specialist&descSize=20&descAlignY=75&animation=fadeIn" />
+<!-- HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0D1117,100:00F0FF&text=NASIR%20MEHMOOD&fontColor=fff&fontSize=60&desc=DevOps%20Engineer%20%7C%20Cloud%20%26%20Automation%20Specialist&descSize=18&descAlignY=75" />
 
 <br>
 
-<!-- 3D TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=900&lines=☁️+AWS+%7C+Docker+%7C+Kubernetes+%7C+Terraform;🚀+CI%2FCD+Pipelines+%7C+Jenkins+%7C+ArgoCD+%7C+Helm;🔧+Infrastructure+as+Code+%7C+Ansible+%7C+GitOps;🐍+Python+%7C+Shell+Scripting+%7C+SRE+Practices;⚡+Building+Scalable+%26+Resilient+Cloud+Systems" />
+<!-- TYPING ANIMATION -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=850&lines=AWS+%7C+Docker+%7C+Kubernetes+%7C+Terraform;CI%2FCD+%7C+Jenkins+%7C+ArgoCD+%7C+Helm;Infrastructure+as+Code+%7C+Ansible+%7C+GitOps;Python+%7C+Shell+Scripting+%7C+SRE+Practices" />
 
 <br><br>
 
-<!-- 3D PROFILE VIEWS & FOLLOWERS -->
 <img src="https://komarev.com/ghpvc/?username=nasirbloch323&label=Profile%20Views&color=0e75b6&style=for-the-badge&logo=eye" alt="Profile Views" />
 <img src="https://img.shields.io/github/followers/nasirbloch323?label=Followers&style=for-the-badge&color=0e75b6&logo=github" alt="Followers" />
 
@@ -18,110 +17,99 @@
 
 ---
 
-<!-- DEVOPS ENVIRONMENT ANIMATION -->
+<!-- DEVOPS TERMINAL ANIMATION -->
 <div align="center">
   <h2>🚀 DevOps Environment in Action</h2>
-  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-8d1f-432f86e9f07b.gif" width="100%" alt="DevOps Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=400&color=00FF00&background=0D1117&center=true&vCenter=true&width=750&height=140&lines=%24+kubectl+get+pods+-n+production;%E2%9C%85+12%2F12+pods+running+%7C+0+crashes;%24+docker+ps+%7C+grep+flask-app;%E2%9C%85+Container+UP+5+days+%7C+Port+5000;%24+terraform+apply+-auto-approve;%E2%9C%85+AWS+EKS+cluster+deployed+%7C+3+nodes;%24+ansible-playbook+deploy.yml;%E2%9C%85+All+tasks+OK+%7C+0+failed+%7C+12+servers;%24+jenkins+build+ci-cd-pipeline;%E2%9C%85+Build+%23123+SUCCESS+%7C+All+tests+passed" alt="DevOps Terminal" />
 </div>
 
 ---
 
 <div align="center">
 
-<!-- GITHUB TROPHIES - 3D STYLE -->
 <h2>🏆 GitHub Trophy Case</h2>
-<img src="https://github-profile-trophy.vercel.app/?username=nasirbloch323&theme=algolia&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=7" width="100%" alt="GitHub Trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=nasirbloch323&theme=algolia&no-frame=true&no-bg=true&margin-w=10&column=7" width="100%" alt="Trophies" />
 
 <br><br>
 
-<!-- 3D STATS CARDS -->
 <h2>📊 GitHub Analytics</h2>
 
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF&text_color=FFFFFF&rank_icon=github" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Stats" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=FFFFFF" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Languages" />
     </td>
   </tr>
 </table>
 
-<!-- STREAK STATS -->
-<img src="https://streak-stats.demolab.com/?user=nasirbloch323&theme=radical&hide_border=true&background=0D1117&stroke=00F0FF&ring=00F0FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00F0FF&sideLabels=00F0FF" width="70%" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=nasirbloch323&theme=radical&hide_border=true&background=0D1117&stroke=00F0FF&ring=00F0FF&fire=FF6B6B" width="70%" alt="Streak" />
 
 <br><br>
 
-<!-- ACTIVITY GRAPH -->
 <h2>🔥 Contribution Activity</h2>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nasirbloch323&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Activity%20Graph" width="95%" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nasirbloch323&theme=react-dark&hide_border=true&area=true" width="95%" alt="Activity" />
 
 </div>
 
 ---
 
-<!-- AUTO-UPDATING PROJECTS SECTION -->
 <div align="center">
 <h2>🚀 Featured Projects <sub><sup><i>(Auto-Updated)</i></sup></sub></h2>
 </div>
 
 <!-- PROJECTS:START -->
-
 <div align="center">
 
 | Project | Tech Stack | Description |
 |---------|-----------|-------------|
-| **[nasirbloch323](https://github.com/nasirbloch323/nasirbloch323)** | `Python` | DevOps Project |
-| **[100-days-of-code-python](https://github.com/nasirbloch323/100-days-of-code-python)** | `Python` `Jupyter` `ML` | Complete Python learning journey |
-| **[Server-Configuration-Packaging-with-Ansible-](https://github.com/nasirbloch323/Server-Configuration-Packaging-with-Ansible-)** | `DevOps` | DevOps Project |
-| **[helm_k8s](https://github.com/nasirbloch323/helm_k8s)** | `DevOps` | USED FOR ARGOCD,IMAGE UPADATER,EKS CLUSTER |
-| **[Flask-AWS-EKS-FULL-PROJECT](https://github.com/nasirbloch323/Flask-AWS-EKS-FULL-PROJECT)** | `Go Template` | End-to-End Flask App Deployment on AWS EKS Using Jenkins, Helm & Argo CD (CI/CD + GitOps Workflow) |
-| **[flask-Todo-App-Helm](https://github.com/nasirbloch323/flask-Todo-App-Helm)** | `Jenkins` `Helm` `ArgoCD` `AWS EKS` `Docker` `Flask` | Full CI/CD with GitOps deployment |
+| 🎯 **[End-to-End Flask App on AWS EKS](https://github.com/nasirbloch323/flask-Todo-App-Helm)** | `Jenkins` `Helm` `ArgoCD` `AWS EKS` `Docker` `Flask` | Full CI/CD with GitOps deployment |
+| ⚙️ **[Jenkins Shared Library](https://github.com/nasirbloch323/jenkins-shared-lib)** | `Groovy` `Jenkins` `CI/CD` | Reusable pipeline components |
+| ☸️ **[K8s Setup on AWS EC2 (KIND)](https://github.com/nasirbloch323/Kubernetes-Setup-on-AWS-EC2-KIND-)** | `Kubernetes` `KIND` `AWS EC2` `Docker` | Local K8s cluster on cloud VMs |
+| 🐍 **[100 Days of Code - Python](https://github.com/nasirbloch323/100-days-of-code-python)** | `Python` `Jupyter` `ML` | Complete Python learning journey |
+| 🤖 **[Recommendation System](https://github.com/nasirbloch323/Recommendation-System)** | `Python` `ML` `Data Science` | ML-based recommendation engine |
+| 🔧 **[Jenkins Installation](https://github.com/nasirbloch323/Jenkins-installation-)** | `Shell` `Jenkins` `DevOps` | Automated Jenkins setup scripts |
 
 </div>
-
 <!-- PROJECTS:END -->
 
 <br>
 
-<!-- AUTO-UPDATING REPOS SECTION -->
 <div align="center">
 <h2>📦 Latest Repositories <sub><sup><i>(Auto-Updated Daily)</i></sup></sub></h2>
 </div>
 
 <!-- REPOS:START -->
-
 <div align="center">
 
-<a href="https://github.com/nasirbloch323/nasirbloch323">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=nasirbloch323&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/100-days-of-code-python">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=100-days-of-code-python&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/Server-Configuration-Packaging-with-Ansible-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Server-Configuration-Packaging-with-Ansible-&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/helm_k8s">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=helm_k8s&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/Flask-AWS-EKS-FULL-PROJECT">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Flask-AWS-EKS-FULL-PROJECT&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
+<a href="https://github.com/nasirbloch323/jenkins-shared-lib">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=jenkins-shared-lib&theme=radical&hide_border=true&bg_color=0D1117" />
 </a>
 <a href="https://github.com/nasirbloch323/flask-Todo-App-Helm">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=flask-Todo-App-Helm&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=flask-Todo-App-Helm&theme=radical&hide_border=true&bg_color=0D1117" />
+</a>
+<a href="https://github.com/nasirbloch323/Kubernetes-Setup-on-AWS-EC2-KIND-">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Kubernetes-Setup-on-AWS-EC2-KIND-&theme=radical&hide_border=true&bg_color=0D1117" />
+</a>
+<a href="https://github.com/nasirbloch323/100-days-of-code-python">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=100-days-of-code-python&theme=radical&hide_border=true&bg_color=0D1117" />
+</a>
+<a href="https://github.com/nasirbloch323/Recommendation-System">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Recommendation-System&theme=radical&hide_border=true&bg_color=0D1117" />
+</a>
+<a href="https://github.com/nasirbloch323/Jenkins-installation-">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Jenkins-installation-&theme=radical&hide_border=true&bg_color=0D1117" />
 </a>
 
 </div>
-
 <!-- REPOS:END -->
 
 ---
 
 <div align="center">
 
-<!-- 3D SKILL ICONS -->
 <h2>🛠️ Tech Stack Arsenal</h2>
 
 <h3>☁️ Cloud & Infrastructure</h3>
@@ -146,7 +134,6 @@
 
 <br>
 
-<!-- 3D BADGES ROW -->
 <h3>📜 Certifications</h3>
 <p>
   <img src="https://img.shields.io/badge/CKA-Certified%20Kubernetes%20Administrator-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0D1117" />
@@ -159,7 +146,6 @@
 
 ---
 
-<!-- 3D SNAKE ANIMATION -->
 <div align="center">
 <h2>🐍 Contribution Snake</h2>
 <picture>
@@ -171,30 +157,17 @@
 
 ---
 
-<!-- AUTO-UPDATING ACTIVITY SECTION -->
 <div align="center">
 <h2>⚡ Recent Activity <sub><sup><i>(Auto-Updated)</i></sup></sub></h2>
 </div>
 
 <!-- ACTIVITY:START -->
-
-<div align="center">
-
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-
-</div>
-
 <!-- ACTIVITY:END -->
 
 ---
 
 <div align="center">
 
-<!-- CONNECT WITH ME - 3D STYLE -->
 <h2>🌐 Let's Connect</h2>
 
 <a href="https://www.linkedin.com/in/nasir-mehmood-041908205">
@@ -209,20 +182,16 @@
 
 <br><br>
 
-<!-- QUOTE -->
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="80%" />
 
 <br><br>
 
-<!-- FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00F0FF&height=120&section=footer" width="100%" />
 
 <br>
 
 <sub>🤖 <i>This README is auto-generated and updates daily via GitHub Actions</i></sub>
 <br>
-<sub>🕐 <i>Last Updated: <!-- LAST_UPDATED:START -->
-2026-08-02 18:16 UTC
-<!-- LAST_UPDATED:END --></i></sub>
+<sub>🕐 <i>Last Updated: <!-- LAST_UPDATED:START --> <!-- LAST_UPDATED:END --></i></sub>
 
 </div>
