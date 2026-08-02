@@ -17,30 +17,6 @@
 
 ---
 
-<div align="center">
-
-<h2>🏆 GitHub Trophy Case</h2>
-<img src="https://github-profile-trophy.vercel.app/?username=nasirbloch323&theme=algolia&no-frame=true&column=7" width="100%" />
-
-<br><br>
-
-<h2>📊 GitHub Analytics</h2>
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&theme=radical&hide_border=true" alt="Stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&theme=radical&hide_border=true" alt="Languages" />
-    </td>
-  </tr>
-</table>
-
-<img src="https://streak-stats.demolab.com?user=nasirbloch323&theme=radical&hide_border=true" width="70%" alt="Streak" />
-
-<br><br>
-
 <h2>🔥 Contribution Activity</h2>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=nasirbloch323&theme=react-dark&hide_border=true&area=true" width="95%" />
 
