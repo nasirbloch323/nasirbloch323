@@ -14,34 +14,7 @@
 <img src="https://komarev.com/ghpvc/?username=nasirbloch323&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 <img src="https://img.shields.io/github/followers/nasirbloch323?label=Followers&style=for-the-badge&color=0e75b6&logo=github" />
 
-</div>
-<!-- DEVOPS TERMINAL -->
-<div align="center">
-  <h2>🚀 DevOps Environment in Action</h2>
-  
-```bash
-nasir@devops:~$ kubectl get pods -n production
-NAME                          READY   STATUS    RESTARTS   AGE
-flask-app-7c4b9f5d8-x2v4p    1/1     Running   0          5d
-mysql-5f8c7d9b4-w9k2m        1/1     Running   0          5d
-jenkins-6d9f4c8a2-y3m7n      1/1     Running   0          2d
 
-nasir@devops:~$ docker ps | grep flask-app
-a1b2c3d4e5f6   flask-app:latest   "python app.py"   5 days ago   Up 5 days   0.0.0.0:5000->5000/tcp
-
-nasir@devops:~$ terraform apply -auto-approve
-aws_eks_cluster.main: Creation complete after 12m34s
-Apply complete! Resources: 15 added, 0 changed, 0 destroyed.
-
-nasir@devops:~$ ansible-playbook deploy.yml
-PLAY [Deploy to Production] **********************************
-TASK [Gathering Facts] *************************************** ok=[12]
-TASK [Deploy App] ******************************************** ok=[12]
-PLAY RECAP *************************************************** 12 ok, 0 failed
-
-nasir@devops:~$ 
-</div>
-```
 ---
 
 <div align="center">
