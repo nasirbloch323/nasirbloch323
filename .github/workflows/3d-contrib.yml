@@ -2,12 +2,8 @@ name: Generate 3D Contribution Graph
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # Runs daily at 3 AM UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - master
 
 jobs:
   build:
@@ -15,24 +11,11 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
-
+      
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.actor }}
-          SETTING_JSON: |
-            {
-              "type": "rainbow",
-              "fileName": "profile-customize.svg",
-              "backgroundColor": "#0D1117",
-              "foregroundColor": "#FFFFFF",
-              "strongColor": "#00F0FF",
-              "weakColor": "#1F6FEB",
-              "radarColor": "#FF6B6B",
-              "growingAnimation": true,
-              "contribLightColors": ["#FF6B6B", "#FFD93D", "#6BCB77", "#4D96FF", "#9B59B6"],
-              "contribDarkColors": ["#FF6B6B", "#FFD93D", "#6BCB77", "#4D96FF", "#9B59B6"]
-            }
 
       - name: Commit & Push
         run: |
