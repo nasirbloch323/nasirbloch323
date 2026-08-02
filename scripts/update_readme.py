@@ -6,6 +6,7 @@ Fetches latest repos, activity, and updates README sections automatically.
 
 import os
 import re
+import sys
 import requests
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,7 +16,10 @@ GITHUB_USERNAME = os.getenv("GITHUB_USERNAME", "nasirbloch323")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 README_PATH = Path("README.md")
 
-HEADERS = {}
+HEADERS = {
+    "Accept": "application/vnd.github.v3+json",
+    "User-Agent": "nasirbloch323-profile-updater"
+}
 if GITHUB_TOKEN:
     HEADERS["Authorization"] = f"token {GITHUB_TOKEN}"
 
@@ -24,6 +28,9 @@ def fetch_github_api(url):
     """Fetch data from GitHub API with error handling."""
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
+        if response.status_code == 403:
+            print(f"⚠️ Rate limited on {url}. Consider adding a PAT token.")
+            return []
         response.raise_for_status()
         return response.json()
     except Exception as e:
@@ -36,14 +43,13 @@ def get_latest_repos():
     url = f"https://api.github.com/users/{GITHUB_USERNAME}/repos?sort=updated&direction=desc&per_page=6"
     repos = fetch_github_api(url)
 
+    if not repos:
+        return ""
+
     repo_cards = []
     for repo in repos:
-        name = repo["name"]
-        desc = repo["description"] or "No description available"
-        lang = repo["language"] or "Multi-lang"
-        stars = repo["stargazers_count"]
-        forks = repo["forks_count"]
-        url = repo["html_url"]
+        name = repo.get("name", "")
+        url = repo.get("html_url", "")
 
         repo_cards.append(
             f'<a href="{url}">
@@ -55,7 +61,8 @@ def get_latest_repos():
             f'</a>'
         )
 
-    return "\n".join(repo_cards)
+    return "
+".join(repo_cards)
 
 
 def get_recent_activity():
@@ -63,11 +70,13 @@ def get_recent_activity():
     url = f"https://api.github.com/users/{GITHUB_USERNAME}/events/public?per_page=5"
     events = fetch_github_api(url)
 
+    if not events:
+        return "- 🌱 No recent public activity to display"
+
     activity_lines = []
     for event in events:
         event_type = event.get("type", "")
         repo_name = event.get("repo", {}).get("name", "")
-        created_at = event.get("created_at", "")
 
         if event_type == "PushEvent":
             msg = f"🚀 Pushed code to **{repo_name}**"
@@ -90,16 +99,18 @@ def get_recent_activity():
 
         activity_lines.append(f"- {msg}")
 
-    if not activity_lines:
-        activity_lines = ["- 🌱 No recent public activity to display"]
-
-    return "\n".join(activity_lines)
+    return "
+".join(activity_lines)
 
 
 def get_featured_projects():
     """Generate featured projects table with latest info."""
     url = f"https://api.github.com/users/{GITHUB_USERNAME}/repos?sort=updated&direction=desc&per_page=6"
     repos = fetch_github_api(url)
+
+    if not repos:
+        return "| Project | Tech Stack | Description |
+|---------|-----------|-------------|"
 
     # Map of repo names to descriptions and tech stacks
     project_mapping = {
@@ -116,8 +127,8 @@ def get_featured_projects():
 
     rows = []
     for repo in repos:
-        name = repo["name"]
-        url = repo["html_url"]
+        name = repo.get("name", "")
+        url = repo.get("html_url", "")
 
         if name in project_mapping:
             desc, tech = project_mapping[name]
@@ -130,18 +141,28 @@ def get_featured_projects():
 
         rows.append(f"| 🎯 **[{name}]({url})** | {tech_badges} | {desc} |")
 
-    header = "| Project | Tech Stack | Description |\n|---------|-----------|-------------|"
-    return header + "\n" + "\n".join(rows)
+    header = "| Project | Tech Stack | Description |
+|---------|-----------|-------------|"
+    return header + "
+" + "
+".join(rows)
 
 
 def replace_section(content, start_marker, end_marker, new_content):
     """Replace content between markers in README."""
     pattern = re.compile(
-        rf"({re.escape(start_marker)}).*?({re.escape(end_marker)})",
+        re.escape(start_marker) + r".*?" + re.escape(end_marker),
         re.DOTALL,
     )
-    replacement = f"{start_marker}\n{new_content}\n{end_marker}"
-    return pattern.sub(replacement, content)
+    replacement = start_marker + "
+" + new_content + "
+" + end_marker
+
+    if pattern.search(content):
+        return pattern.sub(replacement, content)
+    else:
+        print(f"⚠️ Marker not found: {start_marker}")
+        return content
 
 
 def update_timestamp(content):
@@ -159,8 +180,10 @@ def main():
     print("🚀 Starting README auto-update...")
 
     if not README_PATH.exists():
-        print("❌ README.md not found!")
-        return
+        print(f"❌ README.md not found at {README_PATH.absolute()}!")
+        print(f"📂 Current directory: {os.getcwd()}")
+        print(f"📂 Files in dir: {os.listdir('.')}")
+        sys.exit(1)
 
     content = README_PATH.read_text(encoding="utf-8")
 
@@ -172,7 +195,13 @@ def main():
             content,
             "<!-- PROJECTS:START -->",
             "<!-- PROJECTS:END -->",
-            f'\n<div align="center">\n\n{projects_content}\n\n</div>\n'
+            f'
+<div align="center">
+
+{projects_content}
+
+</div>
+'
         )
         print("✅ Projects updated!")
     except Exception as e:
@@ -186,7 +215,13 @@ def main():
             content,
             "<!-- REPOS:START -->",
             "<!-- REPOS:END -->",
-            f'\n<div align="center">\n\n{repos_content}\n\n</div>\n'
+            f'
+<div align="center">
+
+{repos_content}
+
+</div>
+'
         )
         print("✅ Repo cards updated!")
     except Exception as e:
@@ -200,7 +235,13 @@ def main():
             content,
             "<!-- ACTIVITY:START -->",
             "<!-- ACTIVITY:END -->",
-            f'\n<div align="center">\n\n{activity_content}\n\n</div>\n'
+            f'
+<div align="center">
+
+{activity_content}
+
+</div>
+'
         )
         print("✅ Activity updated!")
     except Exception as e:
