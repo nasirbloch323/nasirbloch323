@@ -18,10 +18,10 @@
 
 ---
 
-<!-- 3D CONTRIBUTION GRAPH -->
+<!-- DEVOPS ENVIRONMENT ANIMATION -->
 <div align="center">
-  <h2>🌌 3D Contribution Galaxy</h2>
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph" />
+  <h2>🚀 DevOps Environment in Action</h2>
+  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-8d1f-432f86e9f07b.gif" width="100%" alt="DevOps Animation" />
 </div>
 
 ---
@@ -67,20 +67,18 @@
 </div>
 
 <!-- PROJECTS:START -->
-
 <div align="center">
 
 | Project | Tech Stack | Description |
 |---------|-----------|-------------|
-| **[nasirbloch323](https://github.com/nasirbloch323/nasirbloch323)** | `Python` | DevOps Project |
-| **[100-days-of-code-python](https://github.com/nasirbloch323/100-days-of-code-python)** | `Python` `Jupyter` `ML` | Complete Python learning journey |
-| **[Server-Configuration-Packaging-with-Ansible-](https://github.com/nasirbloch323/Server-Configuration-Packaging-with-Ansible-)** | `DevOps` | DevOps Project |
-| **[helm_k8s](https://github.com/nasirbloch323/helm_k8s)** | `DevOps` | USED FOR ARGOCD,IMAGE UPADATER,EKS CLUSTER |
-| **[Flask-AWS-EKS-FULL-PROJECT](https://github.com/nasirbloch323/Flask-AWS-EKS-FULL-PROJECT)** | `Go Template` | End-to-End Flask App Deployment on AWS EKS Using Jenkins, Helm & Argo CD (CI/CD + GitOps Workflow) |
-| **[flask-Todo-App-Helm](https://github.com/nasirbloch323/flask-Todo-App-Helm)** | `Jenkins` `Helm` `ArgoCD` `AWS EKS` `Docker` `Flask` | Full CI/CD with GitOps deployment |
+| 🎯 **[End-to-End Flask App on AWS EKS](https://github.com/nasirbloch323/flask-Todo-App-Helm)** | `Jenkins` `Helm` `ArgoCD` `AWS EKS` `Docker` `Flask` | Full CI/CD with GitOps deployment |
+| ⚙️ **[Jenkins Shared Library](https://github.com/nasirbloch323/jenkins-shared-lib)** | `Groovy` `Jenkins` `CI/CD` | Reusable pipeline components |
+| ☸️ **[K8s Setup on AWS EC2 (KIND)](https://github.com/nasirbloch323/Kubernetes-Setup-on-AWS-EC2-KIND-)** | `Kubernetes` `KIND` `AWS EC2` `Docker` | Local K8s cluster on cloud VMs |
+| 🐍 **[100 Days of Code - Python](https://github.com/nasirbloch323/100-days-of-code-python)** | `Python` `Jupyter` `ML` | Complete Python learning journey |
+| 🤖 **[Recommendation System](https://github.com/nasirbloch323/Recommendation-System)** | `Python` `ML` `Data Science` | ML-based recommendation engine |
+| 🔧 **[Jenkins Installation](https://github.com/nasirbloch323/Jenkins-installation-)** | `Shell` `Jenkins` `DevOps` | Automated Jenkins setup scripts |
 
 </div>
-
 <!-- PROJECTS:END -->
 
 <br>
@@ -91,30 +89,28 @@
 </div>
 
 <!-- REPOS:START -->
-
 <div align="center">
 
-<a href="https://github.com/nasirbloch323/nasirbloch323">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=nasirbloch323&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/100-days-of-code-python">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=100-days-of-code-python&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/Server-Configuration-Packaging-with-Ansible-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Server-Configuration-Packaging-with-Ansible-&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/helm_k8s">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=helm_k8s&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
-</a>
-<a href="https://github.com/nasirbloch323/Flask-AWS-EKS-FULL-PROJECT">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Flask-AWS-EKS-FULL-PROJECT&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
+<a href="https://github.com/nasirbloch323/jenkins-shared-lib">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=jenkins-shared-lib&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
 </a>
 <a href="https://github.com/nasirbloch323/flask-Todo-App-Helm">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=flask-Todo-App-Helm&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
 </a>
+<a href="https://github.com/nasirbloch323/Kubernetes-Setup-on-AWS-EC2-KIND-">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Kubernetes-Setup-on-AWS-EC2-KIND-&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
+</a>
+<a href="https://github.com/nasirbloch323/100-days-of-code-python">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=100-days-of-code-python&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
+</a>
+<a href="https://github.com/nasirbloch323/Recommendation-System">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Recommendation-System&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
+</a>
+<a href="https://github.com/nasirbloch323/Jenkins-installation-">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=nasirbloch323&repo=Jenkins-installation-&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF" />
+</a>
 
 </div>
-
 <!-- REPOS:END -->
 
 ---
@@ -177,17 +173,6 @@
 </div>
 
 <!-- ACTIVITY:START -->
-
-<div align="center">
-
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-- Pushed code to **nasirbloch323/nasirbloch323**
-
-</div>
-
 <!-- ACTIVITY:END -->
 
 ---
@@ -221,8 +206,6 @@
 
 <sub>🤖 <i>This README is auto-generated and updates daily via GitHub Actions</i></sub>
 <br>
-<sub>🕐 <i>Last Updated: <!-- LAST_UPDATED:START -->
-2026-08-02 18:00 UTC
-<!-- LAST_UPDATED:END --></i></sub>
+<sub>🕐 <i>Last Updated: <!-- LAST_UPDATED:START --> <!-- LAST_UPDATED:END --></i></sub>
 
 </div>
