@@ -15,14 +15,7 @@
 <img src="https://img.shields.io/github/followers/nasirbloch323?label=Followers&style=for-the-badge&color=0e75b6&logo=github" />
 
 
----
 
-<h2>🔥 Contribution Activity</h2>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nasirbloch323&theme=react-dark&hide_border=true&area=true" width="95%" />
-
-</div>
-
----
 
 <div align="center">
 <h2>🚀 Featured Projects</h2>
