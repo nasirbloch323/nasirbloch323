@@ -36,19 +36,6 @@
 
 ---
 
-## 🎯 `06 // CURRENT FOCUS`
-
-```text
-AWS Cloud Infrastructure
-Kubernetes & Container Orchestration
-CI/CD Automation
-Ansible & Infrastructure Automation
-Terraform / Infrastructure as Code
-Helm & Argo CD / GitOps
-```
-
----
-
 ## 📊 `07 // ENGINEERING MINDSET`
 
 <img src="./assets/engineering-mindset-animated.svg" width="100%" alt="Animated Engineering Mindset"/>
