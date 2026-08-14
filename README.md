@@ -51,9 +51,11 @@
 <div align="center">
 
 <div align="center">
-<img src="./assets/automate-containerize-deploy-improve-animated.svg"
+
+<img src="./assets/devops-engineering-mindset-animated.svg"
      width="100%"
-     alt="Automate Containerize Deploy Improve"/>
+     alt="DevOps Engineering Mindset"/>
+
 </div>
 
 </div>
