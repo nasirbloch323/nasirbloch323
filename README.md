@@ -1,6 +1,5 @@
-# 🖥️ NASIR MEHMOOD
 
-### `DevOps Engineer | Cloud Infrastructure & Automation`
+
 
 <img src="./assets/hero-terminal.svg" width="100%" alt="Animated DevOps Hero"/>
 
