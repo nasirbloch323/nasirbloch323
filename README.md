@@ -50,6 +50,10 @@
 
 <div align="center">
 
-### `AUTOMATE → CONTAINERIZE → DEPLOY → IMPROVE`
+<div align="center">
+<img src="./assets/automate-containerize-deploy-improve-animated.svg"
+     width="100%"
+     alt="Automate Containerize Deploy Improve"/>
+</div>
 
 </div>
