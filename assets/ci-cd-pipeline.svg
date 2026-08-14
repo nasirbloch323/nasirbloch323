@@ -1,0 +1,20 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="250" rx="20" fill="#05080c" stroke="#202d39"/>
+<g font-family="monospace" text-anchor="middle">
+<g fill="#0b1118" stroke="#00ff9c">
+<rect x="45" y="88" width="130" height="62" rx="12"/><rect x="215" y="88" width="130" height="62" rx="12"/>
+<rect x="385" y="88" width="130" height="62" rx="12"/><rect x="555" y="88" width="130" height="62" rx="12"/>
+<rect x="725" y="88" width="130" height="62" rx="12"/><rect x="895" y="88" width="130" height="62" rx="12"/>
+</g>
+<g fill="#e8eef3" font-size="17">
+<text x="110" y="124">GitHub</text><text x="280" y="124">Jenkins</text><text x="450" y="124">Docker</text>
+<text x="620" y="124">ECR</text><text x="790" y="124">EKS</text><text x="960" y="124">Argo CD</text>
+</g>
+<g stroke="#00ff9c" stroke-width="3" stroke-dasharray="8 8">
+<path d="M175 119H215"/><path d="M345 119H385"/><path d="M515 119H555"/><path d="M685 119H725"/><path d="M855 119H895"/>
+<animate attributeName="stroke-dashoffset" from="32" to="0" dur="1s" repeatCount="indefinite"/>
+</g>
+<text x="600" y="45" fill="#00ff9c" font-size="21">CONTINUOUS DELIVERY PIPELINE</text>
+<text x="600" y="205" fill="#778694" font-size="14">BUILD • TEST • IMAGE • PUSH • DEPLOY • SYNC</text>
+</g>
+</svg>

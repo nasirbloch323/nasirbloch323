@@ -1,0 +1,21 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="360" rx="20" fill="#05080c" stroke="#202d39"/>
+<g font-family="monospace">
+<text x="60" y="50" fill="#00ff9c" font-size="22">~/devops/skills</text>
+<g fill="#9aa7b5" font-size="17">
+<text x="70" y="95">AWS</text><text x="70" y="145">Docker</text><text x="70" y="195">Kubernetes</text>
+<text x="70" y="245">Jenkins</text><text x="70" y="295">Ansible</text>
+<text x="600" y="95">Terraform</text><text x="600" y="145">Helm</text><text x="600" y="195">Argo CD</text>
+<text x="600" y="245">Linux</text><text x="600" y="295">Python / Shell</text>
+</g>
+<g fill="none" stroke="#263642" stroke-width="10" stroke-linecap="round">
+<path d="M160 91H500"/><path d="M160 141H500"/><path d="M160 191H500"/><path d="M160 241H500"/><path d="M160 291H500"/>
+<path d="M715 91H1055"/><path d="M715 141H1055"/><path d="M715 191H1055"/><path d="M715 241H1055"/><path d="M715 291H1055"/>
+</g>
+<g fill="#00ff9c">
+<path d="M160 91H470"/><path d="M160 141H445"/><path d="M160 191H455"/><path d="M160 241H430"/><path d="M160 291H410"/>
+<path d="M715 91H990"/><path d="M715 141H965"/><path d="M715 191H940"/><path d="M715 241H1000"/><path d="M715 291H930"/>
+<animateTransform attributeName="transform" type="translate" values="-6 0;6 0;-6 0" dur="2s" repeatCount="indefinite"/>
+</g>
+</g>
+</svg>
