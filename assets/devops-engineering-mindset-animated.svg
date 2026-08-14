@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop stop-color="#020509"/><stop offset="1" stop-color="#0a1118"/>
+</linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+<path d="M36 0H0V36" fill="none" stroke="#14222b"/>
+</pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<rect width="1200" height="430" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="430" rx="22" fill="url(#grid)" opacity=".6"/>
+
+<rect x="0" y="-2" width="1200" height="2" fill="#00ff9c" filter="url(#glow)" opacity=".7">
+<animate attributeName="y" values="-2;430" dur="4s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="42" y="28" width="1116" height="374" rx="17" fill="#05090e" stroke="#263640"/>
+<circle cx="72" cy="56" r="6" fill="#ff5f56"/>
+<circle cx="94" cy="56" r="6" fill="#ffbd2e"/>
+<circle cx="116" cy="56" r="6" fill="#27c93f"/>
+<text x="145" y="61" fill="#71808c" font-family="monospace" font-size="14">nasir@devops:~/engineering</text>
+
+<text x="72" y="102" fill="#00ff9c" font-family="monospace" font-size="18">$ ./devops-mindset.sh</text>
+
+<!-- sequential pipeline -->
+<g font-family="monospace" font-size="17" font-weight="700" text-anchor="middle">
+<g fill="#07120e" stroke="#00ff9c">
+<rect x="75" y="128" width="205" height="50" rx="10">
+<animate attributeName="opacity" values=".35;1;.35" dur="6s" repeatCount="indefinite"/>
+</rect>
+<rect x="305" y="128" width="205" height="50" rx="10">
+<animate attributeName="opacity" values=".35;.35;1;.35" dur="6s" repeatCount="indefinite"/>
+</rect>
+<rect x="535" y="128" width="205" height="50" rx="10">
+<animate attributeName="opacity" values=".35;.35;.35;1;.35" dur="6s" repeatCount="indefinite"/>
+</rect>
+<rect x="765" y="128" width="205" height="50" rx="10">
+<animate attributeName="opacity" values=".35;.35;.35;.35;1;.35" dur="6s" repeatCount="indefinite"/>
+</rect>
+<rect x="995" y="128" width="130" height="50" rx="10">
+<animate attributeName="opacity" values=".35;.35;.35;.35;.35;1;.35" dur="6s" repeatCount="indefinite"/>
+</rect>
+</g>
+
+<g fill="#00ff9c">
+<text x="177" y="160">AUTOMATE</text>
+<text x="407" y="160">CONTAINERIZE</text>
+<text x="637" y="160">CI/CD</text>
+<text x="867" y="160">DEPLOY</text>
+<text x="1060" y="160">IMPROVE</text>
+</g>
+</g>
+
+<g fill="#00ff9c" font-family="monospace" font-size="22" text-anchor="middle">
+<text x="292" y="160">→</text><text x="522" y="160">→</text><text x="752" y="160">→</text><text x="982" y="160">→</text>
+</g>
+
+<!-- DevOps concepts -->
+<text x="72" y="220" fill="#00ff9c" font-family="monospace" font-size="16">$ focus --today</text>
+
+<g font-family="monospace" font-size="14">
+<text x="72" y="253" fill="#d6e0e6">▸ Cloud Infrastructure</text>
+<text x="310" y="253" fill="#d6e0e6">▸ Kubernetes</text>
+<text x="515" y="253" fill="#d6e0e6">▸ CI/CD Automation</text>
+<text x="770" y="253" fill="#d6e0e6">▸ Infrastructure as Code</text>
+<text x="1030" y="253" fill="#d6e0e6">▸ GitOps</text>
+
+<text x="72" y="286" fill="#82929e">AWS • Linux • Docker • Jenkins • Ansible • Terraform</text>
+<text x="72" y="312" fill="#82929e">Kubernetes • Helm • Argo CD • GitHub Actions • Monitoring</text>
+</g>
+
+<!-- animated status -->
+<text x="72" y="352" fill="#00ff9c" font-family="monospace" font-size="14">● BUILD → TEST → SHIP → OBSERVE → SCALE</text>
+<circle cx="390" cy="347" r="5" fill="#00ff9c" filter="url(#glow)">
+<animate attributeName="r" values="4;11;4" dur="1.2s" repeatCount="indefinite"/>
+</circle>
+
+<rect x="72" y="365" width="0" height="2" fill="#00ff9c" filter="url(#glow)">
+<animate attributeName="width" values="0;1020;0" dur="6s" repeatCount="indefinite"/>
+</rect>
+</svg>
