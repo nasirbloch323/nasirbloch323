@@ -1,0 +1,44 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#030509"/><stop offset=".55" stop-color="#0a0f16"/><stop offset="1" stop-color="#020304"/>
+  </linearGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#18232d"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="620" rx="24" fill="url(#bg)"/><rect width="1200" height="620" rx="24" fill="url(#grid)" opacity=".48"/>
+<rect x="0" y="-10" width="1200" height="3" fill="#00ff9c" opacity=".65" filter="url(#glow)"><animate attributeName="y" values="-10;630" dur="4.5s" repeatCount="indefinite"/></rect>
+
+<rect x="45" y="30" width="1110" height="560" rx="18" fill="#06090e" stroke="#263541" stroke-width="2"/>
+<circle cx="76" cy="58" r="7" fill="#ff5f56"/><circle cx="99" cy="58" r="7" fill="#ffbd2e"/><circle cx="122" cy="58" r="7" fill="#27c93f"/>
+<text x="155" y="64" fill="#71808e" font-family="monospace" font-size="14">nasir@devops:~/engineering-mindset</text>
+
+<text x="78" y="108" fill="#00ff9c" font-family="monospace" font-size="20">$ ./mindset.sh</text>
+
+<g font-family="monospace" text-anchor="middle">
+<g fill="#080d13" stroke="#263642" stroke-width="1.5">
+<rect x="390" y="130" width="420" height="48" rx="10"/><rect x="390" y="188" width="420" height="48" rx="10"/>
+<rect x="390" y="246" width="420" height="48" rx="10"/><rect x="390" y="304" width="420" height="48" rx="10"/>
+<rect x="390" y="362" width="420" height="48" rx="10"/><rect x="390" y="420" width="420" height="48" rx="10"/>
+<rect x="390" y="478" width="420" height="48" rx="10"/>
+</g>
+
+<g fill="#e5edf2" font-size="16">
+<text x="600" y="160">MANUAL WORK</text><text x="600" y="218">AUTOMATE</text>
+<text x="600" y="276">VERSION CONTROL</text><text x="600" y="334">CONTAINERIZE</text>
+<text x="600" y="392">CI/CD</text><text x="600" y="450">INFRASTRUCTURE AS CODE</text>
+<text x="600" y="508">GITOPS</text>
+</g>
+
+<!-- animated arrows -->
+<g fill="#00ff9c" font-size="21">
+<text x="600" y="184">↓</text><text x="600" y="242">↓</text><text x="600" y="300">↓</text>
+<text x="600" y="358">↓</text><text x="600" y="416">↓</text><text x="600" y="474">↓</text>
+<text x="600" y="555">↓</text>
+<animate attributeName="opacity" values=".25;1;.25" dur="1.6s" repeatCount="indefinite"/>
+</g>
+
+<rect x="390" y="536" width="420" height="40" rx="10" fill="#06120e" stroke="#00ff9c"/>
+<text x="600" y="562" fill="#00ff9c" font-size="15">RELIABLE DEPLOYMENT</text>
+</g>
+</svg>
