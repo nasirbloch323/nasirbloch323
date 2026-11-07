@@ -1,48 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+<title id="t">Nasir Mehmood — DevOps Engineer</title><desc id="d">A bright blue violet cloud engineering portfolio banner with dimensional cubes and cloud infrastructure graphics.</desc>
 <defs>
- <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E0F2FE"/><stop offset=".48" stop-color="#C4B5FD"/><stop offset="1" stop-color="#FCE7F3"/></linearGradient>
- <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".92"/><stop offset="1" stop-color="#DBEAFE" stop-opacity=".68"/></linearGradient>
- <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
- <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C084FC"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
- <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="13"/><feOffset dy="15"/><feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <filter id="soft"><feGaussianBlur stdDeviation="24"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1B3A"/><stop offset=".52" stop-color="#173B70"/><stop offset="1" stop-color="#512B81"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".18"/><stop offset="1" stop-color="#B7D8FF" stop-opacity=".07"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C4B5FD"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dy="12"/><feComponentTransfer><feFuncA type="linear" slope=".35"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="560" rx="34" fill="url(#sky)"/>
-<circle cx="1000" cy="100" r="105" fill="#FDE68A" opacity=".65" filter="url(#soft)"/>
-<circle cx="190" cy="440" r="120" fill="#67E8F9" opacity=".45" filter="url(#soft)"/>
-<path d="M0 420 Q250 340 480 430 T940 405 T1200 390 V560 H0Z" fill="#FFFFFF" opacity=".35"/>
-<!-- floating 3D cubes -->
-<g filter="url(#shadow)">
- <g transform="translate(890 145)">
-  <path d="M0 45 66 7 133 45 66 84Z" fill="#DBEAFE"/><path d="M0 45 66 84V160L0 121Z" fill="#60A5FA"/><path d="M66 84 133 45V121L66 160Z" fill="#2563EB"/>
- </g>
- <g transform="translate(1020 300) scale(.58)">
-  <path d="M0 45 66 7 133 45 66 84Z" fill="#F3E8FF"/><path d="M0 45 66 84V160L0 121Z" fill="#C084FC"/><path d="M66 84 133 45V121L66 160Z" fill="#7C3AED"/>
- </g>
- <g transform="translate(770 350) scale(.42)">
-  <path d="M0 45 66 7 133 45 66 84Z" fill="#CFFAFE"/><path d="M0 45 66 84V160L0 121Z" fill="#22D3EE"/><path d="M66 84 133 45V121L66 160Z" fill="#0891B2"/>
- </g>
-</g>
-<!-- floating glass panel -->
-<g filter="url(#shadow)">
- <rect x="65" y="65" width="790" height="420" rx="30" fill="url(#glass)" stroke="#FFFFFF" stroke-width="2"/>
- <rect x="65" y="65" width="790" height="12" rx="6" fill="url(#blue)" opacity=".85"/>
-</g>
+<rect width="1200" height="480" rx="30" fill="url(#bg)"/>
+<circle cx="1080" cy="45" r="180" fill="#8B5CF6" opacity=".12"/><circle cx="85" cy="430" r="190" fill="#38BDF8" opacity=".10"/>
+<path d="M0 370 Q240 290 450 380 T900 350 T1200 330 V480 H0Z" fill="#FFFFFF" opacity=".035"/>
+<rect x="54" y="48" width="1092" height="384" rx="28" fill="url(#panel)" stroke="#BFE7FF" stroke-opacity=".25"/>
 <g font-family="Inter,Segoe UI,Arial,sans-serif">
- <text x="112" y="135" fill="#64748B" font-size="18" font-weight="700" letter-spacing="4">CLOUD • AUTOMATION • DELIVERY</text>
- <text x="108" y="225" fill="#172554" font-size="62" font-weight="800">NASIR</text>
- <text x="108" y="292" fill="#172554" font-size="62" font-weight="800">MEHMOOD</text>
- <rect x="112" y="322" width="460" height="4" rx="2" fill="url(#blue)"/>
- <text x="112" y="372" fill="#334155" font-size="25" font-weight="700">DEVOPS ENGINEER</text>
- <text x="112" y="411" fill="#475569" font-size="19">AWS  ·  Kubernetes  ·  Docker  ·  CI/CD</text>
- <text x="112" y="449" fill="#64748B" font-size="16">Building reliable cloud infrastructure, one deployment at a time.</text>
- <g transform="translate(112 465)">
-  <rect width="12" height="12" rx="6" fill="#10B981"><animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/></rect>
-  <text x="22" y="12" fill="#0F766E" font-size="13" font-weight="700" letter-spacing="2">BUILD • AUTOMATE • IMPROVE</text>
- </g>
+ <text x="100" y="118" fill="#7DD3FC" font-size="17" font-weight="700" letter-spacing="5">CLOUD ENGINEERING / AUTOMATION / DELIVERY</text>
+ <text x="96" y="208" fill="#FFFFFF" font-size="68" font-weight="800">NASIR MEHMOOD</text>
+ <text x="100" y="263" fill="#C4B5FD" font-size="31" font-weight="700">JUNIOR DEVOPS ENGINEER</text>
+ <text x="100" y="314" fill="#E2E8F0" font-size="21">AWS  ·  Kubernetes  ·  Docker  ·  CI/CD  ·  Terraform</text>
+ <text x="100" y="363" fill="#BAE6FD" font-size="17">Building reliable infrastructure and repeatable delivery workflows.</text>
+ <rect x="100" y="388" width="250" height="5" rx="2.5" fill="url(#cyan)"/>
 </g>
-<!-- orbit animation -->
-<ellipse cx="980" cy="260" rx="165" ry="72" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".65" transform="rotate(-28 980 260)"/>
-<circle cx="840" cy="205" r="8" fill="#FFFFFF"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle>
-<circle cx="1110" cy="325" r="7" fill="#7C3AED"><animate attributeName="r" values="5;10;5" dur="2.4s" repeatCount="indefinite"/></circle>
+<g filter="url(#shadow)" transform="translate(850 125)">
+ <g transform="translate(80 0)"><path d="M0 48 78 3 156 48 78 94Z" fill="#E0F2FE"/><path d="M0 48 78 94V185L0 139Z" fill="#38BDF8"/><path d="M78 94 156 48V139L78 185Z" fill="#2563EB"/></g>
+ <g transform="translate(0 145) scale(.58)"><path d="M0 48 78 3 156 48 78 94Z" fill="#EDE9FE"/><path d="M0 48 78 94V185L0 139Z" fill="#A78BFA"/><path d="M78 94 156 48V139L78 185Z" fill="#7C3AED"/></g>
+ <g transform="translate(190 180) scale(.43)"><path d="M0 48 78 3 156 48 78 94Z" fill="#CFFAFE"/><path d="M0 48 78 94V185L0 139Z" fill="#22D3EE"/><path d="M78 94 156 48V139L78 185Z" fill="#0891B2"/></g>
+</g>
+<g fill="none" stroke="#A5F3FC" stroke-opacity=".7"><ellipse cx="1000" cy="245" rx="205" ry="125" transform="rotate(-25 1000 245)"/><path d="M810 90 Q980 10 1120 120" stroke-dasharray="5 10"/></g>
 </svg>
