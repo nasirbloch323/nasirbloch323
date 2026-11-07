@@ -1,31 +1,11 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030509"/><stop offset=".55" stop-color="#0a0f16"/><stop offset="1" stop-color="#020304"/></linearGradient>
-<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#18232d"/></pattern>
-<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect width="1200" height="430" rx="24" fill="url(#bg)"/><rect width="1200" height="430" rx="24" fill="url(#grid)" opacity=".48"/>
-<rect x="0" y="-10" width="1200" height="3" fill="#00ff9c" opacity=".65" filter="url(#glow)"><animate attributeName="y" values="-10;440" dur="4s" repeatCount="indefinite"/></rect>
-<rect x="45" y="30" width="1110" height="370" rx="18" fill="#06090e" stroke="#263541" stroke-width="2"/>
-<circle cx="76" cy="58" r="7" fill="#ff5f56"/><circle cx="99" cy="58" r="7" fill="#ffbd2e"/><circle cx="122" cy="58" r="7" fill="#27c93f"/>
-<text x="155" y="64" fill="#71808e" font-family="monospace" font-size="14">nasir@devops:~/connect</text>
-<text x="78" y="105" fill="#00ff9c" font-family="monospace" font-size="20">$ ./connect.sh</text>
-
-<g font-family="monospace">
-<g fill="#080d13" stroke="#263642">
-<rect x="78" y="130" width="1044" height="58" rx="11"/><rect x="78" y="205" width="1044" height="58" rx="11"/><rect x="78" y="280" width="1044" height="58" rx="11"/>
-</g>
-<text x="105" y="166" fill="#00ff9c" font-size="16">LINKEDIN</text>
-<text x="250" y="166" fill="#dce4eb" font-size="15">linkedin.com/in/nasir-mehmood-041908205/</text>
-<text x="105" y="241" fill="#00ff9c" font-size="16">GITHUB</text>
-<text x="250" y="241" fill="#dce4eb" font-size="15">github.com/nasirbloch323</text>
-<text x="105" y="316" fill="#00ff9c" font-size="16">EMAIL</text>
-<text x="250" y="316" fill="#dce4eb" font-size="15">nasirbloch323@gmail.com</text>
-
-<circle cx="1080" cy="159" r="5" fill="#00ff9c" filter="url(#glow)"><animate attributeName="r" values="4;10;4" dur="1.2s" repeatCount="indefinite"/></circle>
-<circle cx="1080" cy="234" r="5" fill="#00ff9c" filter="url(#glow)"><animate attributeName="r" values="4;10;4" dur="1.4s" repeatCount="indefinite"/></circle>
-<circle cx="1080" cy="309" r="5" fill="#00ff9c" filter="url(#glow)"><animate attributeName="r" values="4;10;4" dur="1.6s" repeatCount="indefinite"/></circle>
-
-<text x="78" y="373" fill="#00ff9c" font-size="15">AUTOMATE → CONTAINERIZE → DEPLOY → IMPROVE</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#E0F2FE"/><stop offset=".5" stop-color="#EDE9FE"/><stop offset="1" stop-color="#FCE7F3"/></linearGradient><linearGradient id="a" x2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#7C3AED"/></linearGradient><filter id="sh"><feGaussianBlur in="SourceAlpha" stdDeviation="7"/><feOffset dy="8"/><feComponentTransfer><feFuncA type="linear" slope=".15"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/><circle cx="1080" cy="65" r="90" fill="#C4B5FD" opacity=".35"/>
+<rect x="45" y="30" width="1110" height="370" rx="25" fill="#FFFFFF" fill-opacity=".84" stroke="#FFFFFF" stroke-width="2" filter="url(#sh)"/>
+<text x="82" y="82" fill="#6D28D9" font-family="Inter,Arial" font-size="17" font-weight="800" letter-spacing="3">04 / CONNECT WITH NASIR</text>
+<g font-family="Inter,Arial" font-weight="700"><g fill="#F8FAFC" stroke="#DBEAFE" stroke-width="2"><rect x="80" y="112" width="1040" height="66" rx="16"/><rect x="80" y="195" width="1040" height="66" rx="16"/><rect x="80" y="278" width="1040" height="66" rx="16"/></g>
+<g fill="#6D28D9" font-size="16"><text x="110" y="152">LINKEDIN</text><text x="110" y="235">GITHUB</text><text x="110" y="318">IRONPIPE</text></g>
+<g fill="#475569" font-size="17"><text x="280" y="152">linkedin.com/in/nasir-mehmood-041908205/</text><text x="280" y="235">github.com/nasirbloch323</text><text x="280" y="318">ironpipe.netlify.app</text></g></g>
+<g fill="url(#a)"><circle cx="1080" cy="145" r="6"><animate attributeName="r" values="5;10;5" dur="1.5s" repeatCount="indefinite"/></circle><circle cx="1080" cy="228" r="6"><animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="1080" cy="311" r="6"><animate attributeName="r" values="5;10;5" dur="2.1s" repeatCount="indefinite"/></circle></g>
+<text x="82" y="376" fill="#64748B" font-family="Inter,Arial" font-size="14" font-weight="700" letter-spacing="2">LET'S BUILD • LEARN • SHIP SOMETHING GREAT</text>
 </svg>
