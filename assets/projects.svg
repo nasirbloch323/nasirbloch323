@@ -1,23 +1,8 @@
-<svg width="1200" height="390" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="390" rx="20" fill="#05080c" stroke="#202d39"/>
-<g font-family="monospace">
-<text x="55" y="48" fill="#00ff9c" font-size="22">~/projects</text>
-<g fill="#080d13" stroke="#263642">
-<rect x="55" y="75" width="335" height="120" rx="14"/><rect x="432" y="75" width="335" height="120" rx="14"/><rect x="809" y="75" width="335" height="120" rx="14"/>
-<rect x="55" y="225" width="335" height="120" rx="14"/><rect x="432" y="225" width="335" height="120" rx="14"/>
-</g>
-<g fill="#e7edf2" font-size="16">
-<text x="75" y="108">EKS FLASK DEPLOYMENT</text><text x="452" y="108">ANSIBLE AUTOMATION</text><text x="829" y="108">KUBERNETES APP</text>
-<text x="75" y="258">JENKINS MULTI-BRANCH</text><text x="452" y="258">AI-BANKAPP DEVOPS</text>
-</g>
-<g fill="#71808e" font-size="13">
-<text x="75" y="140">Jenkins • Helm • Argo CD • EKS</text><text x="452" y="140">Linux • Docker • Shell</text><text x="829" y="140">KIND • Flask • MySQL • Secrets</text>
-<text x="75" y="290">Agents • Docker • EC2 • Compose</text><text x="452" y="290">Spring Boot 3 • Java 21 • K8s</text>
-</g>
-<g fill="#00ff9c">
-<circle cx="370" cy="100" r="4"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
-<circle cx="747" cy="100" r="4"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
-<circle cx="1124" cy="100" r="4"><animate attributeName="opacity" values="1;.2;1" dur="1.1s" repeatCount="indefinite"/></circle>
-</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#EFF6FF"/><stop offset="1" stop-color="#F3E8FF"/></linearGradient><filter id="sh"><feGaussianBlur in="SourceAlpha" stdDeviation="6"/><feOffset dy="7"/><feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="390" rx="26" fill="url(#bg)"/><text x="55" y="52" fill="#6D28D9" font-family="Inter,Arial" font-size="20" font-weight="800" letter-spacing="3">03 / SELECTED ENGINEERING BUILDS</text>
+<g filter="url(#sh)" font-family="Inter,Arial"><g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"><rect x="55" y="82" width="335" height="120" rx="20"/><rect x="432" y="82" width="335" height="120" rx="20"/><rect x="809" y="82" width="335" height="120" rx="20"/><rect x="55" y="230" width="335" height="120" rx="20"/><rect x="432" y="230" width="335" height="120" rx="20"/></g>
+<g fill="#312E81" font-size="16" font-weight="800"><text x="78" y="119">EKS FLASK DEPLOYMENT</text><text x="455" y="119">ANSIBLE AUTOMATION</text><text x="832" y="119">KUBERNETES APP</text><text x="78" y="267">JENKINS PIPELINE</text><text x="455" y="267">CLOUD-NATIVE BUILDS</text></g>
+<g fill="#64748B" font-size="14"><text x="78" y="151">Jenkins · Helm · Argo CD · EKS</text><text x="455" y="151">Linux · Docker · Shell</text><text x="832" y="151">KIND · Flask · MySQL</text><text x="78" y="299">Agents · Docker · EC2</text><text x="455" y="299">Containers · Automation · K8s</text></g></g>
+<g fill="#38BDF8"><circle cx="365" cy="105" r="6"><animate attributeName="r" values="4;8;4" dur="1.4s" repeatCount="indefinite"/></circle><circle cx="742" cy="105" r="6"><animate attributeName="r" values="4;8;4" dur="1.7s" repeatCount="indefinite"/></circle><circle cx="1119" cy="105" r="6"><animate attributeName="r" values="4;8;4" dur="1.2s" repeatCount="indefinite"/></circle></g>
 </svg>
