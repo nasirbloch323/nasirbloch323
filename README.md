@@ -1,15 +1,15 @@
 <!-- ═══════════════════════════════════════════════════════════════
      NASIR MEHMOOD • DEVOPS ENGINEERING PROFILE
-     Premium dark / cloud-native portfolio layout
+     Pastel 3D glassmorphism • animated cloud-native portfolio
 ══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="./assets/hero-terminal.svg" width="100%" alt="Nasir Mehmood | DevOps Engineer" />
+<img src="./assets/hero-terminal.svg" width="100%" alt="Nasir Mehmood | 3D Cloud DevOps Portfolio" />
 
 <br/>
 
-<a href="https://github.com/nasirbloch323"><img src="https://img.shields.io/badge/GITHUB-nasirbloch323-0B0F19?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://github.com/nasirbloch323"><img src="https://img.shields.io/badge/GITHUB-nasirbloch323-F8FAFC?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <a href="https://www.linkedin.com/in/nasir-mehmood-041908205/"><img src="https://img.shields.io/badge/LINKEDIN-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://ironpipe.netlify.app/"><img src="https://img.shields.io/badge/IRONPIPE-CLOUD_SOLUTIONS-F97316?style=for-the-badge&logo=vercel&logoColor=white" alt="Ironpipe" /></a>
 
@@ -163,7 +163,7 @@ Application repository with ongoing feature development and user-interface impro
 </table>
 
 <div align="center">
-<a href="https://github.com/nasirbloch323?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-0B0F19?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories" /></a>
+<a href="https://github.com/nasirbloch323?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-F8FAFC?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories" /></a>
 </div>
 
 ---
@@ -173,19 +173,19 @@ Application repository with ongoing feature development and user-interface impro
 <div align="center">
 
 <a href="https://github.com/nasirbloch323">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&hide_border=true&bg_color=0B0F19&title_color=38BDF8&icon_color=F97316&text_color=CBD5E1&rank_icon=github" alt="GitHub statistics" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&hide_border=true&bg_color=F8FAFC&title_color=38BDF8&icon_color=F97316&text_color=CBD5E1&rank_icon=github" alt="GitHub statistics" />
 </a>
 <a href="https://github.com/nasirbloch323">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&hide_border=true&bg_color=0B0F19&title_color=38BDF8&text_color=CBD5E1" alt="Most used languages" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&hide_border=true&bg_color=F8FAFC&title_color=38BDF8&text_color=CBD5E1" alt="Most used languages" />
 </a>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=nasirbloch323&hide_border=true&background=0B0F19&ring=38BDF8&fire=F97316&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" width="90%" />
+<img src="https://streak-stats.demolab.com?user=nasirbloch323&hide_border=true&background=F8FAFC&ring=38BDF8&fire=F97316&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" width="90%" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nasirbloch323&bg_color=0B0F19&color=CBD5E1&line=38BDF8&point=F97316&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nasirbloch323&bg_color=F8FAFC&color=CBD5E1&line=38BDF8&point=F97316&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
 
 </div>
 
