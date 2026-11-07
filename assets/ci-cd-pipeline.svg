@@ -1,20 +1,11 @@
-<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="250" rx="20" fill="#05080c" stroke="#202d39"/>
-<g font-family="monospace" text-anchor="middle">
-<g fill="#0b1118" stroke="#00ff9c">
-<rect x="45" y="88" width="130" height="62" rx="12"/><rect x="215" y="88" width="130" height="62" rx="12"/>
-<rect x="385" y="88" width="130" height="62" rx="12"/><rect x="555" y="88" width="130" height="62" rx="12"/>
-<rect x="725" y="88" width="130" height="62" rx="12"/><rect x="895" y="88" width="130" height="62" rx="12"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#EFF6FF"/><stop offset="1" stop-color="#F3E8FF"/></linearGradient><linearGradient id="g" x2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#7C3AED"/></linearGradient><filter id="sh"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dy="5"/><feComponentTransfer><feFuncA type="linear" slope=".14"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="270" rx="26" fill="url(#bg)"/>
+<text x="600" y="48" text-anchor="middle" fill="#312E81" font-family="Inter,Arial" font-size="22" font-weight="800" letter-spacing="3">CONTINUOUS DELIVERY • FROM COMMIT TO CLOUD</text>
+<g filter="url(#sh)" font-family="Inter,Arial" font-weight="700" text-anchor="middle">
+<g fill="#FFFFFF" stroke="#C7D2FE" stroke-width="2"><rect x="38" y="92" width="150" height="84" rx="18"/><rect x="235" y="92" width="150" height="84" rx="18"/><rect x="432" y="92" width="150" height="84" rx="18"/><rect x="629" y="92" width="150" height="84" rx="18"/><rect x="826" y="92" width="150" height="84" rx="18"/><rect x="1023" y="92" width="150" height="84" rx="18"/></g>
+<g fill="#312E81" font-size="18"><text x="113" y="142">GITHUB</text><text x="310" y="142">JENKINS</text><text x="507" y="142">DOCKER</text><text x="704" y="142">AWS ECR</text><text x="901" y="142">KUBERNETES</text><text x="1098" y="142">ARGO CD</text></g>
 </g>
-<g fill="#e8eef3" font-size="17">
-<text x="110" y="124">GitHub</text><text x="280" y="124">Jenkins</text><text x="450" y="124">Docker</text>
-<text x="620" y="124">ECR</text><text x="790" y="124">EKS</text><text x="960" y="124">Argo CD</text>
-</g>
-<g stroke="#00ff9c" stroke-width="3" stroke-dasharray="8 8">
-<path d="M175 119H215"/><path d="M345 119H385"/><path d="M515 119H555"/><path d="M685 119H725"/><path d="M855 119H895"/>
-<animate attributeName="stroke-dashoffset" from="32" to="0" dur="1s" repeatCount="indefinite"/>
-</g>
-<text x="600" y="45" fill="#00ff9c" font-size="21">CONTINUOUS DELIVERY PIPELINE</text>
-<text x="600" y="205" fill="#778694" font-size="14">BUILD • TEST • IMAGE • PUSH • DEPLOY • SYNC</text>
-</g>
+<g stroke="url(#g)" stroke-width="5" stroke-linecap="round" fill="none"><path d="M188 134H235 M385 134H432 M582 134H629 M779 134H826 M976 134H1023"><animate attributeName="stroke-dasharray" values="2 14;14 2;2 14" dur="1.5s" repeatCount="indefinite"/></path></g>
+<text x="600" y="225" text-anchor="middle" fill="#64748B" font-family="Inter,Arial" font-size="15" font-weight="700" letter-spacing="3">CODE  →  BUILD  →  PACKAGE  →  PUSH  →  DEPLOY  →  SYNC</text>
 </svg>
