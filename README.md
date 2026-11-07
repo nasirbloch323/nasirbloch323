@@ -1,138 +1,276 @@
-<!--
-  NASIR MEHMOOD | GitHub Profile
-  Clean, accessible and recruiter-friendly profile README.
--->
+<!-- ═══════════════════════════════════════════════════════════════
+     NASIR MEHMOOD • DEVOPS ENGINEERING PROFILE
+     Premium dark / cloud-native portfolio layout
+══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="./assets/hero-terminal.svg" width="100%" alt="Nasir Mehmood — DevOps Engineer" />
+<img src="./assets/hero-terminal.svg" width="100%" alt="Nasir Mehmood | DevOps Engineer" />
 
-<p>
-  <a href="https://github.com/nasirbloch323"><img src="https://img.shields.io/badge/GitHub-nasirbloch323-181717?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
-  <a href="https://www.linkedin.com/in/nasir-mehmood-041908205/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="https://ironpipe.netlify.app/"><img src="https://img.shields.io/badge/Ironpipe-Explore-111827?style=for-the-badge&logo=vercel" alt="Ironpipe" /></a>
-</p>
+<br/>
 
-**Junior DevOps Engineer | AWS Cloud | Kubernetes | CI/CD | Infrastructure Automation**
+<a href="https://github.com/nasirbloch323"><img src="https://img.shields.io/badge/GITHUB-nasirbloch323-0B0F19?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/nasir-mehmood-041908205/"><img src="https://img.shields.io/badge/LINKEDIN-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://ironpipe.netlify.app/"><img src="https://img.shields.io/badge/IRONPIPE-CLOUD_SOLUTIONS-F97316?style=for-the-badge&logo=vercel&logoColor=white" alt="Ironpipe" /></a>
 
-*Building reliable, secure and repeatable cloud infrastructure through hands-on projects.*
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=850&lines=Cloud+Infrastructure+%7C+AWS;Containers+%26+Orchestration+%7C+Docker+%2B+Kubernetes;CI%2FCD+%7C+Jenkins+%2B+GitHub+Actions;Infrastructure+as+Code+%7C+Terraform+%2B+Ansible;Automate.+Deploy.+Observe.+Improve." alt="Typing introduction" />
+
+<br/>
+
+**JUNIOR DEVOPS ENGINEER** &nbsp;•&nbsp; **AWS CLOUD** &nbsp;•&nbsp; **CLOUD-NATIVE SYSTEMS**
+
+<sub>Designing repeatable deployments · Automating infrastructure · Learning through real-world builds</sub>
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+## ◈ THE ENGINEER
+
+I'm **Nasir Mehmood** — a DevOps Engineer focused on building practical skills across cloud infrastructure, container platforms and delivery automation.
+
+I enjoy understanding how systems work end-to-end: from provisioning infrastructure and packaging applications to deploying workloads and monitoring services.
+
+- ☁️ Cloud infrastructure and AWS services
+- 🐧 Linux administration and troubleshooting
+- 🐳 Docker, Kubernetes and Helm
+- 🔁 CI/CD with Jenkins and GitHub Actions
+- 🧱 Infrastructure as Code with Terraform
+- ⚙️ Configuration automation with Ansible
+- 📊 Monitoring with Prometheus and Grafana
+- 🎓 DevOps Internship — Mise Academy
+
+</td>
+<td width="42%" valign="top">
+
+## ◈ CURRENT FOCUS
+
+<img src="./assets/whoami-animated.svg" width="100%" alt="Developer profile terminal" />
+
+**Building toward**
+- Production-ready cloud deployments
+- Reliable Kubernetes workloads
+- Secure infrastructure practices
+- Observable delivery pipelines
+
+**Based in** · Pakistan  
+**Open to** · Junior DevOps · Cloud Support · Internships · Freelance
+
+</td>
+</tr>
+</table>
+
+---
+
+## ◈ ENGINEERING TOOLKIT
+
+<img src="./assets/skills-stack-animated.svg" width="100%" alt="Animated technology stack" />
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**01 / CLOUD & SYSTEMS**
+
+<img src="https://skillicons.dev/icons?i=aws,linux,bash,python&theme=dark" alt="AWS Linux Bash Python" />
+
+**02 / INFRASTRUCTURE AUTOMATION**
+
+<img src="https://skillicons.dev/icons?i=terraform,ansible&theme=dark" alt="Terraform Ansible" />
+
+</td>
+<td width="50%" valign="top">
+
+**03 / CONTAINERS & PLATFORM**
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,helm&theme=dark" alt="Docker Kubernetes Helm" />
+
+**04 / DELIVERY & OBSERVABILITY**
+
+<img src="https://skillicons.dev/icons?i=jenkins,githubactions,prometheus,grafana&theme=dark" alt="Jenkins GitHub Actions Prometheus Grafana" />
+
+</td>
+</tr>
+</table>
+
+---
+
+## ◈ DEPLOYMENT PIPELINE
+
+<img src="./assets/ci-cd-pipeline.svg" width="100%" alt="CI/CD pipeline workflow" />
+
+<div align="center">
+
+| PLAN & CODE | BUILD & TEST | RELEASE & DEPLOY | OBSERVE & IMPROVE |
+|:---:|:---:|:---:|:---:|
+| Git · GitHub | Docker · Jenkins | Kubernetes · Helm · Argo CD | Prometheus · Grafana |
 
 </div>
 
 ---
 
-## 👋 About Me
+## ◈ SELECTED BUILDS
 
-I'm **Nasir Mehmood**, an aspiring DevOps Engineer focused on cloud infrastructure, containerization and automation. I enjoy turning manual deployment processes into repeatable workflows and learning by building practical, production-style projects.
+<sub>Hands-on repositories covering application delivery, containerization and cloud-native engineering.</sub>
 
-- ☁️ Working with **AWS** and Linux-based infrastructure
-- 🐳 Building and deploying applications with **Docker** and **Kubernetes**
-- 🔁 Creating CI/CD workflows with **Jenkins** and **GitHub Actions**
-- ⚙️ Automating infrastructure and configuration with **Terraform** and **Ansible**
-- 📈 Exploring monitoring, observability and GitOps practices
-- 🤝 DevOps Intern — **Mise Academy**
-
-## 🧭 Explore My Profile
-
-| Area | What you'll find |
-| --- | --- |
-| [Tech Stack](#-technology-stack) | Tools and technologies I work with |
-| [Projects](#-featured-projects) | Hands-on cloud and DevOps projects |
-| [Learning](#-learning--development) | Current learning focus |
-| [Connect](#-lets-connect) | Professional links |
-
----
-
-## ⚙️ Technology Stack
-
-### Cloud & Infrastructure
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-
-### Containers & Orchestration
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-
-### CI/CD, Monitoring & Scripting
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
----
-
-## 🚀 Featured Projects
-
-A selection of practical projects demonstrating deployment, automation and cloud-native workflows.
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### ☸️ EduConnect — MERN on Kubernetes
-Containerized a MERN application and worked on Kubernetes deployment resources and application exposure.
 
-[View repository](https://github.com/nasirbloch323/EduConnect-MERN-k8s)
+A containerized MERN application project focused on Kubernetes deployment resources and application exposure.
 
-### 🐳 Three-Tier Application — Docker Compose
-Worked on a multi-service application setup using Docker Compose and shared configuration.
+<a href="https://github.com/nasirbloch323/EduConnect-MERN-k8s"><img src="https://img.shields.io/badge/INSPECT_PROJECT-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Inspect EduConnect project" /></a>
 
-[View repository](https://github.com/nasirbloch323/Three-tierApp-with-docker-compose-shared-lib)
+</td>
+<td width="50%" valign="top">
 
-### 🤖 Kubernetes LLM Application
-Kubernetes-focused application deployment and experimentation.
+### 🐳 Three-Tier App — Docker Compose
 
-[View repository](https://github.com/nasirbloch323/k8s-llm-app)
+A multi-service application environment using Docker Compose and shared configuration.
 
-### 🍔 Food Delivery Application
-Application repository with ongoing UI and feature development.
+<a href="https://github.com/nasirbloch323/Three-tierApp-with-docker-compose-shared-lib"><img src="https://img.shields.io/badge/INSPECT_PROJECT-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Inspect three-tier project" /></a>
 
-[View repository](https://github.com/nasirbloch323/Food-delivery)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
-  <a href="https://github.com/nasirbloch323?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore_All_Repositories-181717?style=for-the-badge&logo=github" alt="Explore all repositories" />
-  </a>
-</p>
+### 🤖 Kubernetes LLM App
 
----
+Kubernetes-based application deployment and cloud-native experimentation.
 
-## 📚 Learning & Development
+<a href="https://github.com/nasirbloch323/k8s-llm-app"><img src="https://img.shields.io/badge/INSPECT_PROJECT-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Inspect Kubernetes LLM project" /></a>
 
-I believe in learning through implementation. My current focus is on:
+</td>
+<td width="50%" valign="top">
 
-- AWS architecture, networking, IAM and monitoring
-- Kubernetes workloads, networking, storage and Helm
-- Infrastructure as Code with Terraform
-- Configuration management with Ansible
-- CI/CD pipeline design and GitOps with Argo CD
-- Observability with Prometheus and Grafana
+### 🍔 Food Delivery
 
----
+Application repository with ongoing feature development and user-interface improvements.
 
-## 🧠 Engineering Approach
+<a href="https://github.com/nasirbloch323/Food-delivery"><img src="https://img.shields.io/badge/INSPECT_PROJECT-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Inspect Food Delivery project" /></a>
 
-- **Automate first:** reduce repetitive manual work.
-- **Keep it understandable:** write clear documentation and reusable configurations.
-- **Build securely:** apply sensible access controls and infrastructure practices.
-- **Learn continuously:** test, troubleshoot, improve and share what I build.
+</td>
+</tr>
+</table>
+
+<div align="center">
+<a href="https://github.com/nasirbloch323?tab=repositories"><img src="https://img.shields.io/badge/VIEW_ALL_REPOSITORIES-0B0F19?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories" /></a>
+</div>
 
 ---
 
-## 🤝 Let's Connect
-
-I'm open to **Junior DevOps Engineer**, **Cloud Support Engineer**, internship and collaborative project opportunities.
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/nasir-mehmood-041908205/"><img src="https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-  <a href="https://github.com/nasirbloch323"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" /></a>
-  <a href="https://ironpipe.netlify.app/"><img src="https://img.shields.io/badge/Website-Ironpipe-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Ironpipe" /></a>
-</p>
+## ◈ GITHUB ACTIVITY
 
 <div align="center">
 
-*Thanks for visiting my profile. Feel free to explore my repositories and connect!*
+<a href="https://github.com/nasirbloch323">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&hide_border=true&bg_color=0B0F19&title_color=38BDF8&icon_color=F97316&text_color=CBD5E1&rank_icon=github" alt="GitHub statistics" />
+</a>
+<a href="https://github.com/nasirbloch323">
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&hide_border=true&bg_color=0B0F19&title_color=38BDF8&text_color=CBD5E1" alt="Most used languages" />
+</a>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=nasirbloch323&hide_border=true&background=0B0F19&ring=38BDF8&fire=F97316&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak" width="90%" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nasirbloch323&bg_color=0B0F19&color=CBD5E1&line=38BDF8&point=F97316&area=true&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
+
+</div>
+
+---
+
+## ◈ LEARNING ROADMAP
+
+<img src="./assets/certifications-learning-animated.svg" width="100%" alt="Learning and certification roadmap" />
+
+| Focus | Direction |
+|:---|:---|
+| AWS | Cloud architecture, IAM, networking, compute and monitoring |
+| Kubernetes | Workloads, networking, storage, Helm and cluster operations |
+| IaC | Reusable Terraform modules and environment management |
+| Automation | Ansible playbooks, Bash and Python scripting |
+| GitOps | Argo CD and deployment automation |
+| Observability | Prometheus, Grafana, metrics and troubleshooting |
+
+---
+
+## ◈ ENGINEERING PRINCIPLES
+
+<img src="./assets/engineering-mindset-animated.svg" width="100%" alt="Engineering mindset" />
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+**AUTOMATE**
+
+<sub>Reduce repetitive work</sub>
+
+</td>
+<td align="center" width="25%">
+
+**SECURE**
+
+<sub>Build with access control in mind</sub>
+
+</td>
+<td align="center" width="25%">
+
+**OBSERVE**
+
+<sub>Measure and troubleshoot</sub>
+
+</td>
+<td align="center" width="25%">
+
+**IMPROVE**
+
+<sub>Learn and iterate continuously</sub>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## ◈ LET'S BUILD SOMETHING
+
+<img src="./assets/connect-animated.svg" width="100%" alt="Connect with Nasir Mehmood" />
+
+<div align="center">
+
+**Open to junior DevOps opportunities, cloud support roles, internships and collaborative projects.**
+
+<br/>
+
+<a href="https://www.linkedin.com/in/nasir-mehmood-041908205/"><img src="https://img.shields.io/badge/LINKEDIN-LET'S_TALK-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn contact" /></a>
+<a href="https://github.com/nasirbloch323"><img src="https://img.shields.io/badge/GITHUB-FOLLOW_MY_WORK-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
+<a href="https://ironpipe.netlify.app/"><img src="https://img.shields.io/badge/IRONPIPE-VISIT_WEBSITE-F97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ironpipe website" /></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=nasirbloch323&style=for-the-badge&color=0E7490&label=PROFILE+VIEWS" alt="Profile view counter" />
+
+<br/><br/>
+
+<sub>“Make it work. Make it reliable. Make it repeatable.”</sub>
+
+**NASIR MEHMOOD** · DEVOPS ENGINEERING
 
 </div>
