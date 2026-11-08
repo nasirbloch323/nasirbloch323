@@ -59,12 +59,6 @@ I'm **Nasir Mehmood**, an entry-level DevOps Engineer building practical experie
 
 ---
 
-## 📈 GitHub Activity
-
-<div align="center">
-<a href="https://github.com/nasirbloch323"><img height="165" src="https://github-readme-stats.vercel.app/api?username=nasirbloch323&show_icons=true&hide_border=true&bg_color=F8FAFC&title_color=1D4ED8&icon_color=7C3AED&text_color=334155" alt="GitHub stats"/></a>
-<a href="https://github.com/nasirbloch323"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nasirbloch323&layout=compact&hide_border=true&bg_color=F8FAFC&title_color=1D4ED8&text_color=334155" alt="Top languages"/></a>
-</div>
 
 ---
 
